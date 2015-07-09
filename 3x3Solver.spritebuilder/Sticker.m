@@ -43,7 +43,6 @@ typedef NS_ENUM(NSInteger, color)
         case orange:
             _sticker.color = [CCColor colorWithRed:1.f green:0.33f blue:0.f];
             break;
-            
     }
 }
 

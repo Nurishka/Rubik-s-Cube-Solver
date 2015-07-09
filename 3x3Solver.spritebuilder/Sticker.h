@@ -8,7 +8,7 @@
 
 #import "CCNode.h"
 
-@interface Sticker : CCNode
+@interface Sticker : CCNode // the class is only used for visualisation of the cube
 
 @property (nonatomic, strong) CCNodeColor *sticker;
 

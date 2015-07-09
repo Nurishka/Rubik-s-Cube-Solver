@@ -45,6 +45,10 @@
 		7A97911819E631CD001FFC4D /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9790FE19E62E40001FFC4D /* libcocos2d.a */; };
 		7D08A15F1B46868900233557 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D08A15E1B46868900233557 /* Cube.m */; };
 		7D08A1621B46876700233557 /* Sticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D08A1611B46876700233557 /* Sticker.m */; };
+		7D20FA7E1B4D2292003A56AC /* Center.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20FA7D1B4D2292003A56AC /* Center.m */; };
+		7D20FA831B4D4019003A56AC /* Algorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20FA821B4D4019003A56AC /* Algorithms.m */; };
+		7D35AA9C1B4A50CB008FDB43 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D35AA9B1B4A50CB008FDB43 /* Edge.m */; };
+		7D35AAA11B4A5384008FDB43 /* Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D35AAA01B4A5384008FDB43 /* Corner.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		927F619E196C771E000F43EF /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		927F61A5196C771E000F43EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3517B978D7009739AE /* OpenAL.framework */; };
@@ -177,6 +181,14 @@
 		7D08A15E1B46868900233557 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
 		7D08A1601B46876700233557 /* Sticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sticker.h; sourceTree = "<group>"; };
 		7D08A1611B46876700233557 /* Sticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sticker.m; sourceTree = "<group>"; };
+		7D20FA7C1B4D2292003A56AC /* Center.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Center.h; sourceTree = "<group>"; };
+		7D20FA7D1B4D2292003A56AC /* Center.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Center.m; sourceTree = "<group>"; };
+		7D20FA811B4D4019003A56AC /* Algorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
+		7D20FA821B4D4019003A56AC /* Algorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithms.m; sourceTree = "<group>"; };
+		7D35AA9A1B4A50CB008FDB43 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		7D35AA9B1B4A50CB008FDB43 /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		7D35AA9F1B4A5384008FDB43 /* Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Corner.h; sourceTree = "<group>"; };
+		7D35AAA01B4A5384008FDB43 /* Corner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Corner.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		927F61BF196C771E000F43EF /* 3x3Solver Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3x3Solver Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -431,6 +443,34 @@
 			name = Mac;
 			sourceTree = "<group>";
 		};
+		7D8067021B4E4F19008A8ABF /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7D20FA811B4D4019003A56AC /* Algorithms.h */,
+				7D20FA821B4D4019003A56AC /* Algorithms.m */,
+				7D08A15D1B46868900233557 /* Cube.h */,
+				7D08A15E1B46868900233557 /* Cube.m */,
+				7D20FA7C1B4D2292003A56AC /* Center.h */,
+				7D20FA7D1B4D2292003A56AC /* Center.m */,
+				7D35AA9A1B4A50CB008FDB43 /* Edge.h */,
+				7D35AA9B1B4A50CB008FDB43 /* Edge.m */,
+				7D35AA9F1B4A5384008FDB43 /* Corner.h */,
+				7D35AAA01B4A5384008FDB43 /* Corner.m */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		7D8067031B4E4FC8008A8ABF /* Cube Visualisation */ = {
+			isa = PBXGroup;
+			children = (
+				B7378992180767190076A88C /* MainScene.h */,
+				B7378993180767190076A88C /* MainScene.m */,
+				7D08A1601B46876700233557 /* Sticker.h */,
+				7D08A1611B46876700233557 /* Sticker.m */,
+			);
+			name = "Cube Visualisation";
+			sourceTree = "<group>";
+		};
 		9222E2B918734FF800A246C7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,12 +483,8 @@
 			isa = PBXGroup;
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
-				B7378992180767190076A88C /* MainScene.h */,
-				B7378993180767190076A88C /* MainScene.m */,
-				7D08A1601B46876700233557 /* Sticker.h */,
-				7D08A1611B46876700233557 /* Sticker.m */,
-				7D08A15D1B46868900233557 /* Cube.h */,
-				7D08A15E1B46868900233557 /* Cube.m */,
+				7D8067031B4E4FC8008A8ABF /* Cube Visualisation */,
+				7D8067021B4E4F19008A8ABF /* Logic */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 			);
 			name = Source;
@@ -828,8 +864,12 @@
 			files = (
 				7D08A1621B46876700233557 /* Sticker.m in Sources */,
 				7D08A15F1B46868900233557 /* Cube.m in Sources */,
+				7D35AAA11B4A5384008FDB43 /* Corner.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
+				7D35AA9C1B4A50CB008FDB43 /* Edge.m in Sources */,
+				7D20FA831B4D4019003A56AC /* Algorithms.m in Sources */,
+				7D20FA7E1B4D2292003A56AC /* Center.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
